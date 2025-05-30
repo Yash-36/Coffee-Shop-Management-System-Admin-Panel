@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|d:\\college study material (b.tech)\\practical\\sem - 5\\coffee shop management system(admin panel)\\bal\\commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16BBC0F8-6E29-45B0-9EF3-5FC104F09C89}|Coffee Shop Management System(Admin Panel).csproj|solutionrelative:bal\\commonvariable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwDkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T10:57:33.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-21T09:09:29.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommonVariable.cs",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\BAL\\CommonVariable.cs",
+              "RelativeDocumentMoniker": "BAL\\CommonVariable.cs",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\BAL\\CommonVariable.cs",
+              "RelativeToolTip": "BAL\\CommonVariable.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:16:19.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Views\\Home\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Register.cshtml",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Views\\Home\\Register.cshtml",
+              "RelativeToolTip": "Views\\Home\\Register.cshtml",
+              "ViewState": "AQIAADoAAAAAAAAAAAAQwCQAAACLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T07:03:24.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\login.cshtml",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "Views\\Home\\login.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACUAAACIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-21T07:01:33.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\COLLEGE STUDY MATERIAL (B.TECH)\\Practical\\SEM - 5\\Coffee Shop Management System(Admin Panel)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwGkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T07:01:25.79Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

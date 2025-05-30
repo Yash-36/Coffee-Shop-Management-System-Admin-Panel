@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Add User Page";
+}
+
+@model UserModel
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Add User</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">AddUser</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">User</h5>
+                    <h4 class="font-green-sharp">@TempData["Message"]</h4>
+                    <!-- Multi Columns Form -->
+                    <form class="row g-3" method="post" asp-action="Save" asp-controller="User">
+
+                        @if (Model.UserID != null)
+                        {
+                            <input type="hidden" asp-for="UserID" />
+                        }
+
+                        <div class="col-md-12">
+                            <label class="form-label"><span class="text-danger">*</span>UserName</label>
+                            <input type="text" class="form-control" asp-for="UserName" />
+                            <span asp-validation-for="UserName" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label"><span class="text-danger">*</span>Email</label>
+                            <input type="email" class="form-control" asp-for="Email" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label"><span class="text-danger">*</span>Password</label>
+                            <input type="text" class="form-control" asp-for="Password"  />
+                            <span asp-validation-for="Password" class="text-danger"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label"><span class="text-danger">*</span>MobileNo</label>
+                            <input type="text" class="form-control" asp-for="MobileNo" />
+                            <span asp-validation-for="MobileNo" class="text-danger"></span>
+
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label"><span class="text-danger">*</span>Address</label>
+                            <input type="text" class="form-control" asp-for="Address" />
+                            <span asp-validation-for="Address" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <label><span class="text-danger">*</span>IsActive</label>
+                            <select class="form-control" asp-for="IsActive" >
+                                <option value="">Select Order</option>
+                                <option value="True">1</option>
+                                <option value="False">0</option>
+                            </select>
+                           @*  <input type="text" class="form-control" asp-for="IsActive" name="IsActive" /> *@
+                            <span asp-validation-for="IsActive" class="text-danger"></span>
+                        </div>
+                  
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <a class="btn btn-secondary" asp-controller="User" asp-action="usersdetails">Cancel</a>
+                        </div>
+                    </form><!-- End Multi Columns Form -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

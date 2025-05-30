@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Coffee Shop Management System(Admin Panel).props" />
+</Project>

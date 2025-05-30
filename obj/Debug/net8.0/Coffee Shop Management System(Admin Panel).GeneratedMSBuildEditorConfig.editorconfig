@@ -1,0 +1,115 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Coffee_Shop_Management_System_Admin_Panel_
+build_property.RootNamespace = Coffee_Shop_Management_System_Admin_Panel_
+build_property.ProjectDir = D:\COLLEGE STUDY MATERIAL (B.TECH)\Practical\SEM - 5\Coffee Shop Management System(Admin Panel)\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\COLLEGE STUDY MATERIAL (B.TECH)\Practical\SEM - 5\Coffee Shop Management System(Admin Panel)
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Bills/AddBill.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQWRkQmlsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Bills/Billsdetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmlsbHNcQmlsbHNkZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Customer/AddCustomer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQWRkQ3VzdG9tZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Customer/Customerdetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJkZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Home/A_details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBX2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Home/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/OrderDetail/AddOrderDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcQWRkT3JkZXJEZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/OrderDetail/Orderdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcT3JkZXJkZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Order/AddOrder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQWRkT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Order/Orderdetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJkZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Product/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Product/Productdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0ZGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Shared/_Layout1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQxLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/User/AddUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBZGRVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/User/userprofile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2VycHJvZmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/User/usersdetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx1c2Vyc2RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/COLLEGE STUDY MATERIAL (B.TECH)/Practical/SEM - 5/Coffee Shop Management System(Admin Panel)/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-808hv7kfxd

@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Add Bill Page";
+}
+
+@model BillsModel
+
+<main id="main" class="main">
+    <div class="pagetitle">
+        <h1>Add Order</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Add Bill</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Bills</h5>
+                    <h4 class="font-green-sharp">@TempData["Message"]</h4>
+                    <!-- Multi Columns Form -->
+                    <form class="row g-3" asp-action="Save" asp-controller="Bills">
+                        @if (Model.BillID != null)
+                        {
+                            <input type="hidden" asp-for="BillID" />
+                        }
+                        <div class="col-md-12">
+                            <label for="BillNumber" class="form-label"><span class="text-danger">*</span>Bill Number</label>                           
+                            <input type="text" class="form-control" asp-for="BillNumber" id="BillNumber" />
+                            <span asp-validation-for="BillNumber" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="BillDate" class="form-label"><span class="text-danger">*</span>Bill Date</label>
+                            <input type="date" class="form-control" asp-for="BillDate" id="BillDate" />
+                            <span asp-validation-for="BillDate" class="text-danger"></span>
+                        </div>
+                        
+                        <div class="col-12">
+                            <label for="OrderID" class="form-label"><span class="text-danger">*</span>Order ID</label>
+                            <select class="form-control" id="OrderID" asp-for="OrderID" asp-items="@(new SelectList(ViewBag.OrderList, "OrderID", "OrderID"))">
+                                <option value="">Select Order</option>
+                            </select>
+                            <span asp-validation-for="OrderID" class="text-danger"></span>
+                        </div>
+                        <div class="col-12">
+                            <label for="TotalAmount" class="form-label"><span class="text-danger">*</span>Total Amount</label>
+                            <input type="number" class="form-control" asp-for="TotalAmount" id="TotalAmount" />
+                            <span asp-validation-for="TotalAmount" class="text-danger"></span>
+                        </div>
+                        <div class="col-12">
+                            <label for="Discount" class="form-label"><span class="text-danger">*</span>Discount</label>
+                            <input type="text" class="form-control" asp-for="Discount" id="Discount" />
+                            <span asp-validation-for="Discount" class="text-danger"></span>
+                        </div>
+                        <div class="col-12">
+                            <label for="NetAmount" class="form-label"><span class="text-danger">*</span>Net Amount</label>
+                            <input type="number" class="form-control" asp-for="NetAmount" id="NetAmount" />
+                            <span asp-validation-for="NetAmount" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-12">
+                            <label for="UserID" class="form-label"><span class="text-danger">*</span>UserName</label>
+                            <select class="form-control" asp-for="UserID">
+                                <option value="">Select User</option>
+                                @foreach (var User in ViewBag.UserList)
+                                {
+                                    <option value="@User.UserID">@User.UserName</option>
+                                }
+                            </select>
+                            <span asp-validation-for="UserID" class="text-danger"></span>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <a class="btn btn-secondary" asp-controller="Bills" asp-action="Billsdetail">Cancel</a>
+                        </div>
+                    </form><!-- End Multi Columns Form -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

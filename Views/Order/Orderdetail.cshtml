@@ -1,0 +1,117 @@
+﻿@{
+    ViewData["Title"] = "Order Page";
+}
+
+@using System.Data
+@model DataTable
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Data Tables</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Order Details</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="card-title">Order List</h5>
+                            <div>
+                                <a class="btn btn-outline-primary" asp-controller="ExportToExcel" asp-action="ExportToExcel" asp-route-table="Order">
+                                    <i class="bi bi-filetype-xlsx"></i>Export
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <h6 class="text-success">
+                            @if (TempData["Message"] != null)
+                            {
+                                <div class="alert alert-success text-success">
+                                    @TempData["Message"]
+                                </div>
+                            }
+                            @if (TempData["ErrorMessage"] != null)
+                            {
+                                <div class="alert alert-danger text-danger">
+                                    @TempData["ErrorMessage"]
+                                </div>
+                            }
+                        </h6>
+                        <div class="table-responsive">
+                            <!-- Table with stripped rows -->
+                            <table class="table datatable">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <b>O</b>rder_Id
+                                        </th>
+                                        <th data-type="date" data-format="YYYY/DD/MM">Order_Date</th>
+                                        <th>Customer_Id</th>
+                                        <th>Payment Mode</th>
+                                        <th>Total Amount</th>
+                                        <th>Shipping Address</th>
+                                        <th>User_ID</th>
+                                        <th colspan="2">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @if (Model.Rows.Count > 0) {
+                                        @foreach (DataRow dr in Model.Rows)
+                                        {
+                                            <tr class="text-center">
+                                                <td>@dr["OrderID"]</td>
+                                                <td>@dr["OrderDate"]</td>
+                                                <td>@dr["CustomerID"]</td>
+                                                <td>@dr["PaymentMode"]</td>
+                                                <td>@dr["TotalAmount"]</td>
+                                                <td>@dr["ShippingAddress"]</td>  
+                                                <td>@dr["UserId"]</td>
+                                                <td class="d-flex">
+                                                    @* <button class="btn btn-warning">Edit</button> *@
+                                                    <a class="btn btn-warning btn-sm me-2" asp-controller="Order" asp-action="AddOrder" asp-route-OrderID="@dr["OrderID"]">
+                                                        <i class="bi bi-pencil-fill"></i>
+                                                    </a>
+                                                    <span class="btn btn-danger btn-sm" onclick="confirmDelete(@dr["OrderID"])">
+                                                        <i class="bi bi-x"></i>
+                                                    </span>
+                                                    @* <button class="btn btn-danger">Delete</button> *@
+                                                </td>
+                                            </tr>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <tr>
+                                            <td colspan="5" class="text-center">
+                                                <p class="col-form-label">No Record Found</p>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <!-- End Table with stripped rows -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
+
+<script>
+    function confirmDelete(OrderID) {
+        if (confirm('Are you sure you want to delete this user ? ')) {
+            window.location.href = "/Order/OrderDelete?OrderID=" + OrderID;
+        }
+    }
+</script>

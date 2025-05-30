@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Assign Project Details Page";
+}
+
+<main id="main" class="main">
+
+    <div class="pagetitle">
+        <h1>Data Tables</h1>
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="Index">Home</a></li>
+                <li class="breadcrumb-item active">Assign Details</li>
+            </ol>
+        </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Assign Project List</h5>
+                        <div class="table-responsive">
+                            <!-- Table with stripped rows -->
+                            <table class="table datatable">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <b>E</b>mp_Id
+                                        </th>
+                                        <th>FirstName</th>
+                                        <th>LastName</th>
+                                        <th>Email</th>
+                                        <th>Phone</th>
+                                        <th data-type="date" data-format="YYYY/DD/MM">H_Date</th>
+                                        <th>J_Title</th>
+                                        <th>Salary</th>
+                                        <th>D_Id</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @for (int i = 1; i < 50; i++)
+                                    {
+                                        <tr>
+                                            <td>@i</td>
+                                            <td>Zelenia</td>
+                                            <td>Roman</td>
+                                            <td>Roman@gmail.com</td>
+                                            <td>7516</td>
+                                            <td>2012/03/03</td>
+                                            <td>Redwater</td>
+                                            <td>50000</td>
+                                            <td>2</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                            <!-- End Table with stripped rows -->
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</main><!-- End #main -->
